@@ -1,0 +1,1931 @@
+/* THIS IS ALL ABOUT THE RESPONSIVE WEBSITE OLKAY---========================& */
+@media only screen and (min-width: 280px) and (max-width: 779px) {
+
+
+    p {
+        font-size: 18px;
+        font-family: 'Great Vibes', cursive;
+
+        font-family: 'Lobster', cursive;
+    
+        font-family: 'Lobster Two', cursive;
+    
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+    
+        font-family: 'Smooch', cursive;
+                padding: 10px 0px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+        font-family: 'Readex Pro', sans-serif;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 35px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+                text-align: center;
+    }
+    h3 {
+        font-size: 28px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+    
+        font-family: 'Smooch', cursive;
+        padding: 10px 0px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 18px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+                text-align: center;
+    }
+    span {
+        color: var(--all);
+        font-size: 35px;
+    }
+    
+    
+    i {
+        font-size: 15px;
+    }
+    
+    .line {
+        width: 2px;
+        height: 80px;
+        background: #111;
+        margin: 50px 0px;
+    }
+    .btn {
+        padding: 5px 7px;
+        display: inline-block;
+        background: var(--green);
+        border: none;
+        outline: none;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        font-family: Hina;
+        transition: all ease 0.5s;
+    }
+    .btn:hover {
+        letter-spacing: 1px;
+    }
+
+    
+    #header {
+        display: none;
+    }
+    .cart {
+        display: none;
+    }
+
+    nav {
+        position: fixed;
+        z-index: 999;
+    }
+
+    ul {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 50px;
+        left: -100%;
+        background: #2a2c14;
+        transition: all ease-in-out 0.5s;
+        z-index: 999;
+    }
+
+    label.logo {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        margin: 10px;
+    }
+
+
+    .btnBox {
+        display: flex;
+        cursor: pointer;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #top {
+        width: 100%;
+        height: 60px;
+        display: none;
+        background: #fff;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index: 1000;
+        box-shadow: 0px 3px 0px 0px rgba(65, 35, 35, 0.1);
+    }
+
+    #showcase {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .showcase-text {
+            width: 100%;
+            height: 400px;
+            padding: 0% 2%;
+            background: var(--all);
+            box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+            margin: 0px 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+
+    .showcase-text h1 {
+        font-size: 40px;
+    }
+    
+    .showcaseImg {
+        width: 100%;
+        height: 300px;
+        background: url("tTwo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+    
+    
+    #sale {
+        width: 90%;
+        height: auto;
+        display: flex;
+        margin: 100px 5%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .saleBox {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.3);
+    }
+
+    #offer {
+        width: 90%;
+        height: auto;
+        margin: 3% 5%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .offerBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .offerBoxOne {
+        width: 100%;
+        height: 300px;
+        background: url("eighteen.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        box-shadow: var(--box-shadow);
+    } 
+    .offerBoxOne:hover .offerBoxOneText {
+        left: 0%;
+        opacity: 1;
+    }
+    .offerBoxOneText {
+        width: 100%;
+        height: 80%;
+        background: var(--green);
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transition: all ease 0.6s;
+        opacity: 0;
+    }
+    .offerBoxOneText .btn {
+        background: var(--all);
+        color: #000;
+    }
+    
+    .offerBoxTwo {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .offerBoxTwo1 {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        box-shadow: var(--box-shadow);
+    }
+    .offerBoxTwo1:hover .offerBoxTwoText {
+        opacity: 1;
+        right: 0%;
+    }
+    .offerBoxTwoText {
+        position: absolute;
+        top: 0%;
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: -10%;
+        background: rgba(255, 255, 255, 0.918);
+        transition: all ease 0.7s;
+        opacity: 0;
+    }
+
+    .offerBoxOneText h3, 
+    .offerBoxOneText h5,
+     .offerBoxOneText h1 {
+        color: #fff;
+    }
+    .offerBoxOneText h3 {
+        font-size: 20px;
+    }
+    .offerBoxOneText h1 {
+        font-size: 30px;
+    }
+    .offerBoxTwoText h1 {
+        font-size: 40px;
+    }
+     .offerBoxTwoText h3 {
+         font-size: 20px;
+        color: #000;
+    }
+
+    .offerBoxTwoText h1 {
+        font-size: 40px;
+    }
+     .offerBoxTwoText h3 {
+         font-size: 20px;
+    }
+
+    #latestBlog {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 3% 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .latestBlogBox {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0% 5%;
+    }
+    .latestBlogBoxView {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        transition: 0.9s;
+    }
+    .latestBlogBoxView1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        transition: 0.9s;
+    }
+    .latestBlogBoxView:hover {
+        box-shadow: var(--box-shadow);
+    }
+
+    
+    .latestBlogBoxViewImageText {
+        width: 100%;
+        height: 200px;
+        background: #333;
+        color: #fff;
+        position: relative;
+    }
+
+    .traingelBox {
+        width: 0%;
+        height: 0%;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 40px solid #333;
+        position: absolute;
+        top: -10%;
+        left: 45%;
+        z-index: -100;
+        transition: all ease 0.6s;
+        opacity: 0;
+    }
+    .latestBlogBoxViewImageText h3 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .latestBlogBoxViewImageText h5 {
+        font-size: 10px;
+        line-height: 45px;
+    }
+
+
+
+
+
+    
+    /* Foods */
+    #foodShowcase {
+        width: 90%;
+        margin: 0 5%;
+        height: auto;
+    }
+    .foodShowcaseBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .foodShowcaseBox1 {
+        width: 100%;
+        height: 300px;
+        background: url("seven.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+    }
+    .foodShowcaseBox2 {
+        width: 100%;
+        height: 300px;
+        margin-top: 7%;
+        background: url("four.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+    }
+    .foodShowcaseBox3 {
+        width: 100%;
+        height: 300px;
+        background: url("eighteen.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+        margin: 10px 0px;
+    }
+    .foodShowcaseBox3 > .text {
+        width: 100%;
+        height: 340px;
+        background: rgba(255, 255, 255, 0.726);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid var(--all);
+    }
+    
+    #foodShowcaseOffer {
+        width: 90%;
+        height: auto;
+        margin: 20% 5%;
+    }
+    .foodShowcaseOfferBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .foodShowcaseOfferBox1 {
+        width: 300px;
+        height: 300px;
+        box-shadow: var(--box-shadow);
+        position: relative;
+        box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+        margin: 10% 0px;
+    }
+    .foodShowcaseOfferBox2 {
+        width: 300px;
+        height: 300px;
+        box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+        position: relative;
+        top: 0%;
+        margin: 10% 0px;
+    }
+    
+    .textfso {
+        width: 100%;
+        height: 50px;
+        background: #000;
+        position: absolute;
+        bottom: -16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 10px solid var(--all);
+    }
+    .textfso2 {
+        width: 100%;
+        height: 50px;
+        background: var(--all);
+        position: absolute;
+        bottom: -16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 10px solid #000;
+    }
+    .textfso > p {
+        color: #fff;
+    }
+    .textfso2 > p {
+        color: #000;
+    }
+    .textfso > p > span {
+        font-size: 30px;
+    }
+    .textfso2 > p > span {
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    
+    
+    #monthPromo {
+        width: 90%;
+        margin: 5% 5%;
+        height: auto;
+    }
+    .monthPromoBox {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .monthPromoBox1 {
+        width: 100%;
+        height: 400px;
+        margin: 10px;
+        background: url("tTwo.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        transition: all 0.5s;
+    }
+    .monthPromoBox1:hover {
+        box-shadow: 0 0 25px 2px rgba(93, 93, 93, 0.2);
+    }
+    .monthPromoBox1:hover .monthPromoText {
+        background: #000;
+        color: #fff;
+        opacity: 1;
+        left: 0%;
+    }
+    .monthPromoText {
+        width: 100%;
+        height: 80%;
+        background: rgba(255, 255, 255, 0.877);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        opacity: 0;
+        transition: all ease 0.6s;
+    }
+    .monthPromoText h1 {
+        font-size: 100px;
+        color: var(--all);
+    }
+    .monthPromoBox2 {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .monthPromoImage {
+        width: 350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        position: relative;
+    }
+    .monthPromoImage:hover .image {
+       transform: scale(1.1);
+    }
+    .monthPromoImage:hover .mtext {
+        opacity: 1;
+    }
+    .eniola {
+        width: 170px;
+        height: 170px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.3);
+    }
+    
+    .mtext {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: all ease 0.9s;
+        opacity: 0;
+    }
+    .mtext > p, .mtext > h5 {
+        color: #fff;
+    }
+    
+    
+    #vipFoods {
+        width: 90%;
+        height: auto;
+        margin: 5% 5%;
+    }
+    .vipFoods {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .vipFoodBox {
+        width: 280px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .vipFoodBox1 {
+        width: 280px;
+        height: auto;
+        margin: 2.5px 5px;
+    }
+    .vipFoodImage {
+        width: 100%;
+        height: 250px;
+    }
+    .vipFoodImage:hover .image {
+        transform: scale(1.2);
+    }
+    .vipFoodText {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        display: flex;
+        background: #000;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vipFoodText span {
+        font-size: 20px;
+    }
+
+
+
+
+
+        /* CONTACT SETTINGS */
+#contactShowcase {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+}
+.contactShowcaseBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.contactText {
+ width: 100%;
+ height: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: var(--all);
+ box-shadow: 1px 2px 15px 2px rgba(0,0,0,0.3);
+}
+.contactText h3 {
+    font-size: 20px;
+}
+.contactImage {
+    width: 100%;
+    height: 300px;
+    transition: all ease 0.5;
+}
+.contactImage:hover {
+    box-shadow: none;
+}
+.contactImage:hover .image {
+    transform: scale(1.2);
+}
+
+#message {
+    width: 94%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.contactBox {
+    width: 100%;
+    height: 300px;
+}
+.messageBox {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.messageForm {
+    width: 100%;
+    height: 380px;
+    background: #000;
+    padding: 20px 0px;
+    border-bottom: 3px solid var(--all);
+    box-shadow: 1px 2px 15px 2px rgba(0,0,0,0.3);
+}
+.messageForm input[type="text"] {
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: var(--all);
+    border-radius: 10px;
+    margin: 10px 5%;
+    padding: 3px 10px;
+    font-size: 20px;
+    font-family: Fira;
+    border-bottom: 10px solid var(--green);
+}
+.messageForm textarea {
+    width: 90%;
+    height: 150px;
+    border-radius: 15px;
+    margin: 10px 5%;
+    color: var(--text);
+    font-size: 20px;
+    font-family: Fira;
+    border: none;
+    outline: none;
+    background: var(--all);
+    padding: 10px;
+}
+
+.locationBox {
+    width: 100%;
+    height: 300px;
+    background: var(--all);
+    margin: 10px 0px;
+}
+
+.contactBox {
+    width: 100%;
+    height: auto;
+    margin-left: 3%;
+   background: var(--all);
+   padding: 20px 0px;
+   margin: 50px 0px;
+}
+
+.connect {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 20%;
+}
+.connectBox:hover {
+    transform: rotateZ(15deg);
+    background: #000;
+    color: #fff;
+}
+.connectBox {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #000;
+    border-radius: 6px;
+    margin: 5px;
+    background: var(--all);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  all ease 0.5s;
+    box-shadow: 1px 2px 6px;
+}
+.connectBox i {
+    font-size: 20px;
+}
+
+
+    
+    /* ABOUT SHOWCASE */
+#aboutShowcase {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+}
+.aboutShowcaseBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutShowcaseBox1 {
+    width: 100%;
+    height: 300px;
+}
+.aboutShowcaseBox1Image {
+    width: 100%;
+    height: 400px;
+}
+.aboutHr {
+    width: 4px;
+    height: 80%;
+    background: var(--green);
+    margin: 10% 1px;
+}
+.aboutShowcaseBox2 {
+    width: 100%;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.aboutShowcaseImage {
+    width: 100%;
+    height: 300px;
+    background: url("eighteen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: none;
+}
+
+#whatWeDo {
+    width: 90%;
+    height: auto;
+    margin: 15% 5%;
+}
+.whatWeDo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+.whatWeDoImage {
+    width: 90%;
+    margin: 0% 5%;
+    height: 200px;
+    box-shadow: 2px 3px 15px 2px;
+}
+.whatWeDoBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+}
+.whatBoxes {
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.whatIcon {
+    width: 60%;
+    height: 60%;
+    background: var(--all);
+    border-radius: 20px;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatIcon i {
+    font-size: 50px;
+}
+
+#aboutCeo {
+    width: 80%;
+    height: auto;
+    margin: 5% 10%;
+}
+.aboutCeoBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eniolaImage {
+    width: 250px;
+    height: 250px;
+    background: orange;
+}
+
+
+#chefs {
+    width: 90%;
+    height: auto;
+    margin: 5% 5%;
+}
+.chefsBox {
+    width: 90%;
+    height: auto;
+    margin: 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chefsBoxview {
+    width: 400px;
+    height: auto;
+    box-shadow: 1px 1px 20px 2px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+.chefsBoxviewImage {
+    width: 100%;
+    height: 200px;
+}
+
+.allme {
+    width: 90%;
+    height: 50px;
+    margin: 5% 5%;
+}
+    
+
+    #footer {
+        width: 100%;
+        height: auto;
+        background: #f1f1f1;
+    }
+    .footerBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fBox {
+        width: 90%;
+        height: auto;
+        display: flex;
+        background: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 5%;
+    }
+    .fBox textarea {
+        width: 90%;
+        height: 100px;
+        margin: 3px 5%;
+        outline: none;
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+        box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.2);
+    }
+    .fBox button {
+        width: 90%;
+        height: 40px;
+        background: #000;
+        color: chartreuse;
+        margin: 3px 5%;
+        outline: none;
+        border: none;
+    }
+    .fBox a {
+        color: #000;
+    }
+    .fBox a:hover {
+        color: #fff;
+    }
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 1070px) {
+    p {
+        font-size: 18px;
+        font-family: 'Great Vibes', cursive;
+
+        font-family: 'Lobster', cursive;
+    
+        font-family: 'Lobster Two', cursive;
+    
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+    
+        font-family: 'Smooch', cursive;
+                padding: 10px 0px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 45px;
+        font-family: 'Readex Pro', sans-serif;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 42px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+                text-align: center;
+    }
+    h3 {
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Rajdhani', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+    
+        font-family: 'Smooch', cursive;
+        padding: 10px 0px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 21px;
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Pacifico', cursive;
+    
+        font-family: 'Poppins', sans-serif;
+    
+        font-family: 'Readex Pro', sans-serif;
+                text-align: center;
+    }
+    span {
+        color: var(--all);
+        font-size: 40px;
+    }
+    .btn {
+        padding: 6px 8px;
+        display: inline-block;
+        background: var(--green);
+        border: none;
+        outline: none;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        font-family: Hina;
+        transition: all ease 0.5s;
+    }
+
+
+    #showcase {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .showcase-text {
+            width: 30%;
+            height: 100%;
+            padding: 0% 2%;
+            background: var(--all);
+            box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+            margin: 0px 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+
+    .showcase-text h1 {
+        font-size: 40px;
+    }
+    
+    .showcaseImg {
+        width: 70%;
+        height: 100%;
+        background: url("tTwo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+    
+    
+    #sale {
+        width: 90%;
+        height: auto;
+        display: flex;
+        margin: 100px 5%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .saleBox {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.3);
+    }
+
+    .offerBoxOneText h3, 
+    .offerBoxOneText h5,
+     .offerBoxOneText h1 {
+        color: #fff;
+    }
+    .offerBoxOneText h3 {
+        font-size: 20px;
+    }
+    .offerBoxOneText h1 {
+        font-size: 30px;
+    }
+    .offerBoxTwoText h1 {
+        font-size: 40px;
+    }
+     .offerBoxTwoText h3 {
+         font-size: 20px;
+        color: #000;
+    }
+
+    .offerBoxTwoText h1 {
+        font-size: 40px;
+    }
+     .offerBoxTwoText h3 {
+         font-size: 20px;
+    }
+
+    #latestBlog {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .latestBlogBox {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0% 5%;
+    }
+    .latestBlogBoxView {
+        width: 45%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        transition: 0.9s;
+    }
+    .latestBlogBoxView1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        transition: 0.9s;
+    }
+    .latestBlogBoxView:hover {
+        box-shadow: var(--box-shadow);
+    }
+
+    
+    .latestBlogBoxViewImageText {
+        width: 100%;
+        height: 270px;
+        background: #333;
+        color: #fff;
+        position: relative;
+    }
+    
+    .traingelBox {
+        width: 0%;
+        height: 0%;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 40px solid #333;
+        position: absolute;
+        top: -10%;
+        left: 45%;
+        z-index: -100;
+        transition: all ease 0.6s;
+        opacity: 0;
+    }
+    .latestBlogBoxViewImageText h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    
+
+    
+
+    /* Foods */
+    #foodShowcase {
+        width: 90%;
+        margin: 5% 5%;
+        height: auto;
+    }
+    .foodShowcaseBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .foodShowcaseBox1 {
+        width: 25%;
+        height: 500px;
+        background: url("seven.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+    }
+    .foodShowcaseBox2 {
+        width: 25%;
+        height: 500px;
+        margin-top: 7%;
+        background: url("four.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+    }
+    .foodShowcaseBox3 {
+        width: 46%;
+        height: 500px;
+        background: url("eighteen.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: var(--box-shadow);
+    }
+    .foodShowcaseBox3 > .text {
+        width: 100%;
+        height: 340px;
+        background: rgba(255, 255, 255, 0.726);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid var(--all);
+    }
+    
+    #foodShowcaseOffer {
+        width: 90%;
+        height: auto;
+        margin: 10% 5%;
+    }
+    .foodShowcaseOfferBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .foodShowcaseOfferBox1 {
+        width: 230px;
+        height: 400px;
+        box-shadow: var(--box-shadow);
+        position: relative;
+        box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+        margin: 10% 10px;
+    }
+    .foodShowcaseOfferBox2 {
+        width: 230px;
+        height: 400px;
+        box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+        position: relative;
+        top: 0%;
+    }
+    
+    .textfso {
+        width: 100%;
+        height: 50px;
+        background: #000;
+        position: absolute;
+        bottom: -16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 10px solid var(--all);
+    }
+    .textfso2 {
+        width: 100%;
+        height: 50px;
+        background: var(--all);
+        position: absolute;
+        bottom: -16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 10px solid #000;
+    }
+    .textfso > p {
+        color: #fff;
+    }
+    .textfso2 > p {
+        color: #000;
+    }
+    .textfso > p > span {
+        font-size: 30px;
+    }
+    .textfso2 > p > span {
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    
+    
+    #monthPromo {
+        width: 90%;
+        margin: 5% 5%;
+        height: auto;
+    }
+    .monthPromoBox {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .monthPromoBox1 {
+        width: 100%;
+        height: 400px;
+        margin: 10px;
+        background: url("tTwo.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        transition: all 0.5s;
+    }
+    .monthPromoBox1:hover {
+        box-shadow: 0 0 25px 2px rgba(93, 93, 93, 0.2);
+    }
+    .monthPromoBox1:hover .monthPromoText {
+        background: #000;
+        color: #fff;
+        opacity: 1;
+        left: 0%;
+    }
+    .monthPromoText {
+        width: 100%;
+        height: 80%;
+        background: rgba(255, 255, 255, 0.877);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        opacity: 0;
+        transition: all ease 0.6s;
+    }
+    .monthPromoText h1 {
+        font-size: 100px;
+        color: var(--all);
+    }
+    .monthPromoBox2 {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .monthPromoImage {
+        width: 350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        position: relative;
+    }
+    .monthPromoImage:hover .image {
+       transform: scale(1.1);
+    }
+    .monthPromoImage:hover .mtext {
+        opacity: 1;
+    }
+    .eniola {
+        width: 170px;
+        height: 170px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.3);
+    }
+    
+    .mtext {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: all ease 0.9s;
+        opacity: 0;
+    }
+    .mtext > p, .mtext > h5 {
+        color: #fff;
+    }
+    
+    
+    #vipFoods {
+        width: 90%;
+        height: auto;
+        margin: 5% 5%;
+    }
+    .vipFoods {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .vipFoodBox {
+        width: 280px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .vipFoodBox1 {
+        width: 280px;
+        height: auto;
+        margin: 2.5px 5px;
+    }
+    .vipFoodImage {
+        width: 100%;
+        height: 250px;
+    }
+    .vipFoodImage:hover .image {
+        transform: scale(1.2);
+    }
+    .vipFoodText {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        display: flex;
+        background: #000;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vipFoodText span {
+        font-size: 20px;
+    }
+
+
+
+    /* CONTACT SETTINGS */
+#contactShowcase {
+    width: 90%;
+    height: auto;
+    margin: 2% 5%;
+}
+.contactShowcaseBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactText {
+ width: 40%;
+ height: 350px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: var(--all);
+ box-shadow: 1px 2px 15px 2px rgba(0,0,0,0.3);
+}
+.contactText h3 {
+    font-size: 20px;
+}
+.contactImage {
+    width: 53%;
+    height: 350px;
+    transition: all ease 0.5;
+}
+.contactImage:hover {
+    box-shadow: none;
+}
+.contactImage:hover .image {
+    transform: scale(1.2);
+}
+
+#message {
+    width: 94%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.contactBox {
+    width: 100%;
+    height: 300px;
+}
+.messageBox {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messageForm {
+    width: 47%;
+    height: 380px;
+    background: #000;
+    padding: 20px 0px;
+    border-bottom: 3px solid var(--all);
+    box-shadow: 1px 2px 15px 2px rgba(0,0,0,0.3);
+}
+.messageForm input[type="text"] {
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: var(--all);
+    border-radius: 10px;
+    margin: 10px 10%;
+    padding: 3px 10px;
+    font-size: 20px;
+    font-family: Fira;
+    border-bottom: 10px solid var(--green);
+}
+.messageForm textarea {
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+    margin: 10px 10%;
+    color: var(--text);
+    font-size: 20px;
+    font-family: Fira;
+    border: none;
+    outline: none;
+    background: var(--all);
+    padding: 10px;
+}
+
+.locationBox {
+    width: 47%;
+    height: 300px;
+    background: var(--all);
+}
+
+.contactBox {
+    width: 44%;
+    height: auto;
+    margin-left: 3%;
+   background: var(--all);
+}
+
+.connect {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 20%;
+}
+.connectBox:hover {
+    transform: rotateZ(15deg);
+    background: #000;
+    color: #fff;
+}
+.connectBox {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #000;
+    border-radius: 6px;
+    margin: 5px;
+    background: var(--all);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  all ease 0.5s;
+    box-shadow: 1px 2px 6px;
+}
+.connectBox i {
+    font-size: 20px;
+}
+
+
+
+    /* ABOUT SHOWCASE */
+    #aboutShowcase {
+        width: 90%;
+        height: auto;
+        margin: 3% 5%;
+    }
+    .aboutShowcaseBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutShowcaseBox1 {
+        width: 100%;
+        height: 300px;
+    }
+    .aboutShowcaseBox1Image {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+        z-index: 10000;
+    }
+    .aboutHr {
+        width: 4px;
+        height: 80%;
+        background: var(--green);
+        margin: 10% 1px;
+    }
+    .aboutShowcaseBox2 {
+        width: 100%;
+        height: 400px;
+    }
+    .aboutShowcaseImage {
+        width: 100%;
+        height: 300px;
+        background: url("eighteen.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    #whatWeDo {
+        width: 80%;
+        height: auto;
+        margin: 15% 10%;
+    }
+    .whatWeDo {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .whatWeDoImage {
+        width: 90%;
+        margin: 0% 5%;
+        height: 400px;
+        box-shadow: 2px 3px 15px 2px;
+    }
+    .whatWeDoBox {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+    .whatBoxes {
+        width: 200px;
+        height: 200px;
+        background: #000;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .whatIcon {
+        width: 60%;
+        height: 60%;
+        background: var(--all);
+        border-radius: 20px;
+        margin: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whatIcon i {
+        font-size: 100px;
+    }
+    
+    #aboutCeo {
+        width: 80%;
+        height: auto;
+        margin: 5% 10%;
+    }
+    .aboutCeoBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .eniolaImage {
+        width: 250px;
+        height: 250px;
+        background: orange;
+    }
+    
+    
+    #chefs {
+        width: 90%;
+        height: auto;
+        margin: 5% 5%;
+    }
+    .chefsBox {
+        width: 90%;
+        height: auto;
+        margin: 5% 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .chefsBoxview {
+        width: 400px;
+        height: auto;
+        box-shadow: 1px 1px 20px 2px rgba(0,0,0,0.1);
+        margin: 10px;
+    }
+    .chefsBoxviewImage {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .allme {
+        width: 90%;
+        height: 50px;
+        margin: 5% 5%;
+    }
+
+
+
+    #footer {
+        width: 100%;
+        height: auto;
+        background: chartreuse;
+    }
+    .footerBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .fBox {
+        width: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    .fBox textarea {
+        width: 90%;
+        height: 100px;
+        margin: 3px 5%;
+        outline: none;
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+        box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.2);
+    }
+    .fBox button {
+        width: 90%;
+        height: 40px;
+        background: #000;
+        color: chartreuse;
+        margin: 3px 5%;
+        outline: none;
+        border: none;
+    }
+    .fBox a {
+        color: #000;
+    }
+    .fBox a:hover {
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 1071px) and (max-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    #showcase {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-text {
+        width: 40%;
+        height: 100%;
+        padding: 0% 2%;
+        background: var(--all);
+        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+        margin: 0px 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.line {
+    width: 2px;
+    height: 50px;
+    background: #111;
+    margin: 50px 0px;
+}
+
+#sale {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 100px 10%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.saleBox {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.3);
+}
+.saleBox:hover .saleBoxText {
+    opacity: 1;
+    top: 0%;
+}
+.saleBox-box {
+    width: 100%;
+    margin: 10px 20px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.saleBoxText {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    background: var(--all);
+    position: absolute;
+    top: -50%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    transition: all ease 0.9s;
+    transform-origin: bottom;
+    opacity: 0;
+}
+.saleBox-box Img {
+    width: 100%;
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transition:all ease 01s;
+}
+.saleBox-box Img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+}
